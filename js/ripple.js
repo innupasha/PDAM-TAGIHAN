@@ -1,0 +1,1 @@
+$(document).ready(function(){try{$("body").ripples({resolution:512,dropRadius:20,perturbance:.04})}catch(r){$(".error").show().text(r)}setInterval(function(){var r=$("body"),t=Math.random()*r.outerWidth(),o=Math.random()*r.outerHeight(),e=.04+.04*Math.random();r.ripples("drop",t,o,20,e)},400)});
